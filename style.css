@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: #d0e4fe;
 }
@@ -32,4 +33,40 @@ h2 {
 
 .LinkCentre {
     text-align: center;
+=======
+body {
+    background-color: #d0e4fe;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    text-align: center;
+}
+
+h2 {
+    color: chocolate;
+    text-align: center;
+}
+
+.Images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.Content {
+    max-width: 720px;
+    margin: auto;
+}
+
+.LinkCentre {
+    text-align: center;
+>>>>>>> 4f3ae212d49ae18cb0dc32ee25e998be7d8a9588
 }
