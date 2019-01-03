@@ -39,8 +39,7 @@ h2 {
     color: white; /* Add a text color */
     padding: 14px 28px; /* Add some padding */
     cursor: pointer; /* Add a pointer cursor on mouse-over */
-    margin-left: 40%;
-    margin-right: 60%;
+    margin-left: auto;
     width: 50%;
     display: table;
   }
