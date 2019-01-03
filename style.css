@@ -39,10 +39,10 @@ h2 {
     color: white; /* Add a text color */
     padding: 14px 28px; /* Add some padding */
     cursor: pointer; /* Add a pointer cursor on mouse-over */
-    display: inline;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    display: none;
   }
   
   .success {background-color: #4CAF50;} /* Green */
