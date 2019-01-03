@@ -42,7 +42,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    display: unset;
+    display: table;
   }
   
   .success {background-color: #4CAF50;} /* Green */
