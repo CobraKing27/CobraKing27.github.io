@@ -49,8 +49,7 @@ p
     padding: 14px 28px; /* Add some padding */
     cursor: pointer; /* Add a pointer cursor on mouse-over */
     margin-right: auto;
-    width: 20%;
-    display: inline-block;
+    display: inline;
   }
   
   .success 
