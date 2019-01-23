@@ -49,3 +49,5 @@ h2 {
   .success:hover {background-color: #46a049;}
   .info {background-color: #2196F3;} /* Blue */
   .info:hover {background: #0b7dda;}
+  .danger {background-color: #f44336;} /* Red */ 
+  .danger:hover {background: #da190b;}
