@@ -1,24 +1,29 @@
-body {
+body 
+{
     background-color: #d0e4fe;
 }
 
-h1 {
+h1 
+{
     color: green;
     text-align: center;
 }
 
-p {
+h2 
+{
+    color: chocolate;
+    text-align: center;
+}
+
+p 
+{
     font-family: 'Times New Roman';
     font-size: 16px;
     text-align: center;
 }
 
-h2 {
-    color: chocolate;
-    text-align: center;
-}
-
-.Images {
+.Images 
+{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -26,16 +31,19 @@ h2 {
     height: 50%;
 }
 
-.Content {
+.Content 
+{
     max-width: 720px;
     margin: auto;
 }
 
-.LinkCentre {
+.LinkCentre 
+{
     text-align: center;
 }
 
-.btn {
+.btn 
+{
     border: none; /* Remove borders */
     color: white; /* Add a text color */
     padding: 14px 28px; /* Add some padding */
@@ -45,9 +53,27 @@ h2 {
     display: grid;
   }
   
-  .success {background-color: #4CAF50;} /* Green */
-  .success:hover {background-color: #46a049;}
-  .info {background-color: #2196F3;} /* Blue */
-  .info:hover {background: #0b7dda;}
-  .danger {background-color: #f44336;} /* Red */ 
-  .danger:hover {background: #da190b;}
+  .success 
+    {
+      background-color: #4CAF50;
+    }
+  .success:hover 
+    {
+      background-color: #46a049;
+    }
+  .info 
+    {
+      background-color: #2196F3;
+    }
+  .info:hover 
+    {
+      background: #0b7dda;
+    }
+  .danger 
+    {
+      background-color: #f44336;
+    }
+  .danger:hover 
+    {
+      background: #da190b;
+    }
