@@ -44,13 +44,11 @@ p
 
 .btn 
 {
-    border: none; /* Remove borders */
+    border: auto; /* Remove borders */
     color: white; /* Add a text color */
-    padding: 14px 28px; /* Add some padding */
+    padding: 20px 30px; /* Add some padding */
     cursor: pointer; /* Add a pointer cursor on mouse-over */
-    display: inline;
-    align-content: center;
-    overflow: auto;
+    display: inline-table;
 }
   
   .success 
