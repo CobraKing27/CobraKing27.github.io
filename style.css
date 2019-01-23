@@ -50,7 +50,7 @@ p
     cursor: pointer; /* Add a pointer cursor on mouse-over */
     margin-right: auto;
     width: 20%;
-    display: grid;
+    display: inline-block;
   }
   
   .success 
