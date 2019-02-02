@@ -1,25 +1,56 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Volc Isle</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL.json", {onProgress: UnityProgress});
-    </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 1280px; height: 920px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">Volc Isle</div>
-      </div>
-    </div>
-  </body>
-</html>
+
+<html>
+
+    <head>
+
+        <title>
+
+            HTML Tutorial - Cobra's Corner.
+
+        </title>
+
+        <!-- START Generated Code -->
+        <link rel="stylesheet" href="TemplateData/style.css">
+        <script src="TemplateData/UnityProgress.js"></script>  
+        <script src="Build/UnityLoader.js"></script>
+        <script>
+          var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL.json", {onProgress: UnityProgress});
+        </script>
+        <!-- END Generated Code -->
+
+        <link rel="stylesheet" href="style.css">   
+    </head>
+
+        <body>
+            <div class="wrapper game">
+         
+                <header>
+                    <h1>
+                    Cobra's Corner
+                    </h1>
+                    <span class="subheading">
+                    Current Project
+                    </span>
+                        <img src="Pics/Cobra.png" alt="Cobra" class="logo">
+                    <nav>
+                        <a href="index.html" class="btn">Home Page</a>
+                        <a href="aboutme.html" class="btn">About me</a>   
+                    </nav>
+                </header>
+                <div class="content">
+                    <h2>Volc Isle by Butterfly Studios</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque quidem ipsam similique. Dolor, saepe ex animi ut harum, voluptatibus veritatis sunt, explicabo quae, consectetur amet quos aliquid ullam beatae architecto.</p>
+                      <div class="webgl-content">
+                      <div id="gameContainer" style="width: 100%; max-width: 1032px; height: 742px"></div>
+                      <div class="footer">
+                        <div class="webgl-logo"></div>
+                        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+                      </div>
+                    </div>
+
+                </div>     
+            </div>
+        </body>
+
+    </html>
