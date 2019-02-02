@@ -101,9 +101,9 @@ nav
 .btn 
 {
   border: auto; /* Remove borders */
-  background-color: #9bb464; /* Add a text color */
+  background-color: #9bb464; /* text color */
   padding: 20px 30px; 
-  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  cursor: pointer; /* A pointer cursor on mouse-over */
   display: inline-block;
   width: 175px;
   text-align: center;
